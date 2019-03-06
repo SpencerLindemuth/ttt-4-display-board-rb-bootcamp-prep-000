@@ -6,3 +6,4 @@ def display_board(moves)
   puts " #{moves[3]} | #{moves[4]} | #{moves[5]} "
   puts "-----------"
   puts " #{moves[6]} | #{moves[7]} | #{moves[8]} "
+end
