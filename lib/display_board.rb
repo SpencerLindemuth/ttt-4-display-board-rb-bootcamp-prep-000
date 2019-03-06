@@ -2,3 +2,5 @@
 # out the current state.
 def display_board(moves)
   puts " #{moves[0]} | #{moves[1]} | #{moves[2]} "
+  puts "-----------"
+  puts " #{moves[3]} | #{moves[4]} | #{moves[5]} "
