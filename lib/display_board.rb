@@ -1,5 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
+board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
 def display_board(moves)
   puts " #{moves[0]} | #{moves[1]} | #{moves[2]} "
   puts "-----------"
@@ -7,3 +8,5 @@ def display_board(moves)
   puts "-----------"
   puts " #{moves[6]} | #{moves[7]} | #{moves[8]} "
 end
+
+display_board(board)
